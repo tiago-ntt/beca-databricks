@@ -4,11 +4,17 @@
 
 # COMMAND ----------
 
+# MAGIC %md
+# MAGIC #Teste branch Developer git hub 
+
+# COMMAND ----------
+
 # MAGIC %md ### Setup
 # MAGIC Click "Run All" in the the companion `streamfiles.py` notebook in another browser tab right before running this notebook. `streamfiles.py` kicks off writes to the target directory every several seconds that we will use to demonstrate Auto Loader.
 
 # COMMAND ----------
 
+#teste git hub
 # clean up the workspace
 dbutils.fs.rm("/tmp/iot_stream/", recurse=True)
 dbutils.fs.rm("/tmp/iot_stream_chkpts/", recurse=True)
